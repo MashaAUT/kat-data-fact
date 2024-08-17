@@ -1,3 +1,30 @@
+.gradle
+
+bin
+
+Reports
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
+
+.project
+
+.cache
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+.cache/
+
+
+
 # Compiled class file
 *.class
 

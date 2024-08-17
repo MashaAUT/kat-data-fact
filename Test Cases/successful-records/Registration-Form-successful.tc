@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register new  form 📝 by automating the completion of a registration form 📄 with provided data using Automation Data Factory 🤖.</description>
+   <name>Registration-Form-successful</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>758833b5-a385-48cc-b151-320f419e1eeb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1e3d3e7-502f-4108-8241-082939dff90f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Female'</defaultValue>
+      <description></description>
+      <id>d1e3d3e7-502f-4108-8241-082939dff90f</id>
+      <masked>false</masked>
+      <name>genero</name>
+   </variable>
+</TestCaseEntity>
