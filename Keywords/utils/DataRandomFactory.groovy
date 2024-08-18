@@ -25,6 +25,11 @@ import com.thedeanda.lorem.LoremIpsum
 
 import internal.GlobalVariable
 
+/**
+ * @author kat. team
+ * 
+ *
+ */
 public class DataRandomFactory {
 
 	public static Lorem lorem = LoremIpsum.getInstance();
@@ -63,12 +68,15 @@ public class DataRandomFactory {
 		String ranPar = lorem.getLastName().replaceAll("[^a-zA-Z]+", "");
 		return ranPar;
 	}
+
+
 	@Keyword
 	public  String getRandomCity() {
 
 		String ranPar = lorem.getCity().replaceAll("[^a-zA-Z]+", "");
 		return ranPar;
 	}
+
 
 	@Keyword
 	public  String getRandomEmail() {

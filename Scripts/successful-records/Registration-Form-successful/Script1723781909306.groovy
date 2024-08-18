@@ -15,6 +15,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import junit.framework.Assert as Assert
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.URL)
@@ -33,8 +34,45 @@ WebUI.setText(findTestObject('homepage/input-email'), inputEmail)
 
 CustomKeywords.'browserfactory.FormUtils.clickOnOptionElement'(genero)
 
-
 String phoneNumber = CustomKeywords.'utils.DataRandomFactory.getRandomPhoneNumberCol'()
 
 WebUI.setText(findTestObject('homepage/phonenumberinput'), phoneNumber)
+
+WebUI.click(findTestObject('datapicker/input-date-picker'))
+
+WebUI.click(findTestObject('datapicker/comboMonthTarget'))
+
+CustomKeywords.'browserfactory.FormUtils.clickOnOptionElement'(month)
+
+WebUI.click(findTestObject('datapicker/cmx-year'))
+
+CustomKeywords.'browserfactory.FormUtils.clickOnOptionElement'(year)
+
+CustomKeywords.'browserfactory.FormUtils.selectNumberCalendar'(dia)
+
+WebUI.scrollToPosition(500, 500)
+
+WebUI.click(findTestObject('homepage/subject-input'))
+
+CustomKeywords.'browserfactory.FormUtils.enterSubjectsText'('Mat', 'Bio', 'Phy')
+
+CustomKeywords.'browserfactory.FormUtils.clickOnOptionElement'(hobbies)
+
+CustomKeywords.'browserfactory.FormUtils.attachFile'('/home/usertty/Pictures/.ENV/.katalon/katalon-selenium01.png')
+
+String randomAddress = CustomKeywords.'utils.AddressRandom.getRandomAddress'()
+
+WebUI.setText(findTestObject('homepage/current-address'), randomAddress)
+
+WebUI.click(findTestObject('homepage/state-cmx'))
+
+CustomKeywords.'browserfactory.FormUtils.clickOnOptionElement'(state)
+
+WebUI.click(findTestObject('homepage/city-cmx'))
+
+CustomKeywords.'browserfactory.FormUtils.clickOnOptionElement'(city)
+
+WebUI.click(findTestObject('homepage/submit-button'))
+
+WebUI.click(findTestObject('modal/button-modal'))
 

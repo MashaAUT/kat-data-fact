@@ -12,11 +12,128 @@
       <value></value>
       <variableId>d1e3d3e7-502f-4108-8241-082939dff90f</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74128092-e986-46b1-b14c-adc2f13348e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e454e002-b64c-46e6-8e2c-1635c33fefa5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c479108-7603-45e4-bb67-1716d88bed46</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f4541b6-9a4e-43f6-b029-3805348b5ac6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b0a8ac2-c6e2-4434-9e95-f1160d2f32a9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0fe9e988-7aaf-42d3-aa33-1e11fae8cbc8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe5d104d-1990-46f1-80ce-4d70a9c04f43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>41307350-40cf-4938-ae1b-7df92e7b3b23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ccaaba94-2337-4c1a-960a-eb106c8820af</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Female'</defaultValue>
       <description></description>
       <id>d1e3d3e7-502f-4108-8241-082939dff90f</id>
       <masked>false</masked>
       <name>genero</name>
+   </variable>
+   <variable>
+      <defaultValue>'12'</defaultValue>
+      <description></description>
+      <id>74128092-e986-46b1-b14c-adc2f13348e9</id>
+      <masked>false</masked>
+      <name>dia</name>
+   </variable>
+   <variable>
+      <defaultValue>'1967'</defaultValue>
+      <description></description>
+      <id>e454e002-b64c-46e6-8e2c-1635c33fefa5</id>
+      <masked>false</masked>
+      <name>year</name>
+   </variable>
+   <variable>
+      <defaultValue>'September'</defaultValue>
+      <description></description>
+      <id>4c479108-7603-45e4-bb67-1716d88bed46</id>
+      <masked>false</masked>
+      <name>month</name>
+   </variable>
+   <variable>
+      <defaultValue>'Music'</defaultValue>
+      <description></description>
+      <id>6f4541b6-9a4e-43f6-b029-3805348b5ac6</id>
+      <masked>false</masked>
+      <name>hobbies</name>
+   </variable>
+   <variable>
+      <defaultValue>'Computer S'</defaultValue>
+      <description></description>
+      <id>8b0a8ac2-c6e2-4434-9e95-f1160d2f32a9</id>
+      <masked>false</masked>
+      <name>subject01</name>
+   </variable>
+   <variable>
+      <defaultValue>'Biolo'</defaultValue>
+      <description></description>
+      <id>0fe9e988-7aaf-42d3-aa33-1e11fae8cbc8</id>
+      <masked>false</masked>
+      <name>subject02</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mat'</defaultValue>
+      <description></description>
+      <id>fe5d104d-1990-46f1-80ce-4d70a9c04f43</id>
+      <masked>false</masked>
+      <name>subject03</name>
+   </variable>
+   <variable>
+      <defaultValue>'Haryana'</defaultValue>
+      <description></description>
+      <id>41307350-40cf-4938-ae1b-7df92e7b3b23</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'Panipat'</defaultValue>
+      <description></description>
+      <id>ccaaba94-2337-4c1a-960a-eb106c8820af</id>
+      <masked>false</masked>
+      <name>city</name>
    </variable>
 </TestCaseEntity>
