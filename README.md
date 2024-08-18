@@ -299,3 +299,11 @@ This project is protected under the [SELECT-A-LICENSE](https://choosealicense.co
 [**Return**](#-quick-links)
 
 ---
+
+## 📝✍️ Notes 
+
+I developed my Groovy skills based on some official examples from the Katalon team so only they can feel free to copy these keywords developed by me @JuanTous on Selenium thanks!
+
+
+![alt text](https://github.com/juanbig/kat-data-fact/blob/master/manual-report/.docs/katalonDemoData.pdf)
+
